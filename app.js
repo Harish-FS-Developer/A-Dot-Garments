@@ -36,7 +36,7 @@ function ensureSeed() {
 	const seeded = load("__seeded", false);
 	if (seeded) return;
 	const sample = [
-		{ name: "Drop Shoulder T-Shirt", category: "T-Shirts", price: 400, imageSrc: "drop.jpg" } ,
+		{ name: "DS T-Shirt", category: "T-Shirts", price: 400, imageSrc: "drop.jpg" } ,
 		{ name: "Shirt", category: "Shirts", price: 550, imageSrc: "shirt.webp" },
 		{ name: "Sports T-Shirt", category: "T-Shirts", price: 300, imageSrc: "sports.webp" },
 		{ name: "Collar T-shirt", category: "T-Shirts", price: 400, imageSrc: "collar.png" } ,
@@ -745,3 +745,4 @@ async function init() {
 }
 
 document.addEventListener("DOMContentLoaded", init);
+
