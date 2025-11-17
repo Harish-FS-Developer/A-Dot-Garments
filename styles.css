@@ -748,7 +748,6 @@ body.show-receipt-on-screen .print-area {
 }
 
 @media (max-width: 640px) {
-	.menu-grid { grid-template-columns: 1fr; }
 	.brand-meta {
 		flex-direction: column;
 		align-items: flex-start;
@@ -770,3 +769,4 @@ body.show-receipt-on-screen .print-area {
 		padding-inline: 14px;
 	}
 }
+
