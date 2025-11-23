@@ -760,6 +760,13 @@ body.show-receipt-on-screen .print-area {
 		justify-content: flex-start;
 		flex-wrap: wrap;
 	}
+
+	.cart-section {
+	top: 80px;
+	padding: 16px 3px;
+	
+}
+	
 	.top-actions .btn {
 		flex: 1 1 calc(50% - 4px);
 		justify-content: center;
@@ -771,3 +778,4 @@ body.show-receipt-on-screen .print-area {
 		padding-inline: 14px;
 	}
 }
+
